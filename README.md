@@ -6,4 +6,6 @@ thank u
 
 note - 
 
-nav - meko ye problem aa rhi h nav bar 
+problem - 
+line 13 - flex property doesn't work
+right left krna h isko kede kru ?
