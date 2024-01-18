@@ -9,3 +9,6 @@ note -
 problem - 
 line 13 - flex property doesn't work
 right left krna h isko kede kru ?
+
+picture set nhi hori h 
+right m set krni h but does not work .
