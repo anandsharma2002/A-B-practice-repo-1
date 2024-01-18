@@ -1,14 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
-
 </head>
-<body>
-    
+
+<body id="body">
+    <div id="main">
+        <nav id="navbar">
+            <div class="navbarleft">
+                <img src="data/proflie 1.png" alt="">
+                <span> <span>Portfolio</span></span>
+            </div>
+            <div class="navbarright">
+                <nav class="pcnavbar">
+                    <ul>
+                        <a href="#">
+                            <li><span>HOME</span></li>
+                        </a>
+                        <a href="#">
+                            <li><span>ABOUT</span></li>
+                        </a>
+                        <a href="#">
+                            <li><span>EDUCATION</span></li>
+                        </a>
+                        <a href="#">
+                            <li><span>EXPERINCE</span></li>
+                        </a>
+                        <a href="#">
+                            <li><span>CONTACT</span></li>
+                        </a>
+                    </ul>
+                </nav>
+                <button id="menubtn" onclick="menufun()"><img class="menuimg" src="data/menu.png" alt=""></button>
+            </div>
+        </nav>
+        <nav id="moblienavbar">
+            <ul id="menudropdown1">
+                <a href="#">
+                    <li>HOME</li>
+                </a>
+                <a href="#">
+                    <li>ABOUT</li>
+                </a>
+                <a href="#">
+                    <li>EDUCATION</li>
+                </a>
+                <a href="#">
+                    <li>EXPERINCE</li>
+                </a>
+                <a href="#">
+                    <li>CONTACT</li>
+                </a>
+            </ul>
+            <div id="menudropdown2">
+                <ul>
+                    <li class="darkmodeli"><span>Dark mode</span><button id="darkmode" onclick="darkmode()">Button</button></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
     <script src="script.js"></script>
 </body>
+
 </html>

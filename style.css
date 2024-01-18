@@ -1,0 +1,152 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+#main{
+    color: white;
+}
+
+#navbar {
+    /* border-bottom: 1px solid white; */
+    display: flex;
+    justify-content: space-between;
+    background-color: #222;
+}
+.navbarleft {
+    margin: auto;
+    margin-left: 10px;
+    display: flex;
+    font-size: 23px;
+}
+.navbarleft span{
+    margin: auto;
+    /* border: 1px solid white; */
+    margin: 0px;
+    margin-left: 5px;
+    display: flex;
+}
+.navbarleft span span {
+    margin: auto;
+}
+.navbarleft img{
+    width: 30px;
+    /* border: 1px solid red; */
+    margin: auto;
+}
+.navbarright{
+    display: flex;
+}
+.pcnavbar{
+    display: block;
+}
+.pcnavbar ul{
+    height: 100%;
+    display: flex;
+    margin: 0px 0px;
+    /* border: 1px solid red; */
+}
+.pcnavbar ul a {
+    color: white;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.pcnavbar ul a li{
+    height: 100%;
+    /* border: 1px solid blue; */
+    padding: 5px 10px;
+    display: flex;
+}
+
+.pcnavbar ul a li:hover {
+    background-color: #444;
+}
+
+.pcnavbar ul a li span{
+    margin: auto;
+}
+
+#menubtn{
+    background-color: transparent;
+    border: 0px;
+}
+
+.menuimg{
+    width: 40px;
+    height: auto;
+}
+#moblienavbar {
+    display: block;
+}
+
+#menudropdown1{
+    /* height: 200px; */
+    background-color: #222;
+    font-size: 22px;
+    display: none;
+}
+
+#menudropdown1 a{
+    color: white;
+    text-decoration: none;
+}
+
+#menudropdown1 li {
+    border-bottom: 1px solid black;
+    padding: 7px 0px 7px 7px;
+}
+#menudropdown1 li:hover {
+    background-color: #333;
+}
+
+#menudropdown2{
+    /* height: 200px; */
+    background-color: #222;
+    font-size: 22px;
+    /* display: none; */
+}
+
+#menudropdown2 li {
+    border-bottom: 1px solid black;
+    padding: 7px 0px 7px 7px;
+}
+
+.darkmodeli{
+    display: flex;
+    justify-content:space-between;
+}
+
+.darkmodeli button{
+    border-radius: 10px;
+    margin-right: 30px;
+    padding: 3px 8px;
+    border: 1px solid black;
+}
+
+
+@media screen and (max-width: 720px) {
+    #menudropdown1 {
+        display: block;
+    }
+    .pcnavbar{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 720px) {
+
+    #menudropdown2 {
+        display: flex;
+        justify-content: end;
+        background-color: transparent;
+    }
+    #menudropdown2 ul{
+        width: 200px;
+        background-color: #222;
+        font-size: 20px;
+        margin-right: 0px;
+    }
+}
